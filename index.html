@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insilicology - ড্যাশবোর্ড</title>
+  <meta name="description" content="Insilicology - বাংলাদেশের সেরা অনলাইন লার্নিং প্ল্যাটফর্ম">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+
+    <!-- ═══ MOBILE TOP BAR ═══ -->
+    <header class="mobile-topbar" id="mobileTopbar">
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <div class="mobile-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/></svg>
+        </div>
+        <span class="logo-text">Insilicology</span>
+      </div>
+    </header>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- ═══ SIDEBAR ═══ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 4 3 6 3s6-1 6-3v-5"/></svg>
+          </div>
+          <span class="logo-text">Insilicology</span>
+        </div>
+        <button class="sidebar-collapse-btn" title="Collapse sidebar">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+      </div>
+
+      <!-- Points Card -->
+      <div class="points-card">
+        <div class="points-icon">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        </div>
+        <div class="points-info">
+          <div class="points-value">0</div>
+          <div class="points-label">মোট পয়েন্ট / 170</div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active" id="nav-dashboard">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          </span>
+          ড্যাশবোর্ড
+        </a>
+        <a href="#" class="nav-item" id="nav-courses">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+          </span>
+          আমার কোর্স
+          <span class="nav-badge">66</span>
+        </a>
+        <a href="#" class="nav-item" id="nav-announcements">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </span>
+          এনাউন্সমেন্ট
+          <span class="nav-badge">10</span>
+        </a>
+        <a href="#" class="nav-item" id="nav-support">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0z"/></svg>
+          </span>
+          সাপোর্ট
+        </a>
+        <a href="#" class="nav-item" id="nav-qa">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </span>
+          প্রশ্নোত্তর
+          <span class="nav-badge">6</span>
+        </a>
+        <a href="#" class="nav-item" id="nav-tools">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </span>
+          টুলস
+          <span class="nav-badge">9</span>
+        </a>
+        <a href="#" class="nav-item" id="nav-assignments">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </span>
+          এসাইনমেন্ট
+        </a>
+        <a href="#" class="nav-item" id="nav-freegift">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg>
+          </span>
+          ফ্রি গিফট
+          <span class="nav-badge">8</span>
+        </a>
+        <a href="#" class="nav-item" id="nav-subscription">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+          </span>
+          সাবস্ক্রিপশন
+        </a>
+        <a href="#" class="nav-item" id="nav-marketplace">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          </span>
+          মার্কেটপ্লেস
+        </a>
+        <a href="#" class="nav-item" id="nav-profile">
+          <span class="nav-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </span>
+          প্রোফাইল
+        </a>
+      </nav>
+
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="user-profile">
+          <div class="user-avatar">20</div>
+          <div class="user-info">
+            <div class="user-name">Ehsanul Islam</div>
+            <div class="user-email">2024ehsan@gmail.com</div>
+          </div>
+        </div>
+        <div class="sidebar-actions">
+          <button class="action-btn" id="darkModeToggle" title="Toggle Dark Mode">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button class="action-btn" title="লগআউট">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+            লগআউট
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ═══ MAIN CONTENT ═══ -->
+    <main class="main-content">
+
+      <!-- Welcome Header -->
+      <div class="welcome-header">
+        <h1 class="welcome-title">স্বাগতম, Ehsanul Islam ! 👋</h1>
+        <p class="welcome-subtitle">আপনার শেখার অগ্রগতি দেখুন এবং চালিয়ে যান।</p>
+      </div>
+
+      <!-- Stats Grid -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-card-header">
+            <span class="stat-label">মোট কোর্স</span>
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+          </div>
+          <div class="stat-value">2</div>
+          <div class="stat-description">এনরোল করা কোর্স</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-header">
+            <span class="stat-label">চলমান কোর্স</span>
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+          </div>
+          <div class="stat-value">2</div>
+          <div class="stat-description">শেখা চলছে</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-header">
+            <span class="stat-label">সম্পন্ন কোর্স</span>
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+          </div>
+          <div class="stat-value">0</div>
+          <div class="stat-description">কোর্স শেষ হয়েছে</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-card-header">
+            <span class="stat-label">সম্পন্ন লেসন</span>
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+          </div>
+          <div class="stat-value">1</div>
+          <div class="stat-description">লেসন দেখা হয়েছে</div>
+        </div>
+      </div>
+
+      <!-- Announcement Card -->
+      <div class="announcement-card">
+        <div class="announcement-header">
+          <div class="announcement-check">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+          </div>
+          <span class="announcement-title">ফ্রি ই-বুক রিকুয়েস্ট</span>
+          <span class="announcement-badge">অ্যাপ্রুভড</span>
+        </div>
+        <div class="announcement-course">Molecular Dynamic Simulation</div>
+        <div class="announcement-body">
+          <strong>আডমিন রেসপন্স:</strong>
+          <div class="credit-title">MD Simulation Complete E-Book Package 📚</div>
+          <br>
+          আপনার রিকুয়েস্ট করা ই-বুক প্যাকেজ অ্যাপ্রুভ হয়েছে। নিচের লিংক থেকে ডাউনলোড করুন:
+          <br><br>
+          📘 E-Book 1: Introduction to Molecular Dynamics — Theory & Fundamentals
+          <br>
+          📗 E-Book 2: GROMACS Hands-on Tutorial — From Setup to Production Run
+          <br>
+          📕 E-Book 3: Force Field Parameterization — AMBER, CHARMM & OPLS
+          <br><br>
+          ডাউনলোড লিংক: https://drive.google.com/ebook-md-simulation
+          <br><br>
+          ই-বুকগুলোতে GROMACS, NAMD এবং AMBER সফটওয়্যার ব্যবহার করে প্রোটিন-লিগ্যান্ড ডকিং, মেমব্রেন সিমুলেশন, এবং ফ্রি এনার্জি ক্যালকুলেশন সম্পর্কে বিস্তারিত আলোচনা করা হয়েছে।
+          <br><br>
+          কোনো সমস্যা হলে সাপোর্টে যোগাযোগ করুন।
+        </div>
+      </div>
+
+      <!-- Support Video Card -->
+      <div class="support-video-card">
+        <div class="video-thumbnail">
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a0000 0%,#8B0000 50%,#B91C1C 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;padding:20px;text-align:center;">
+            <div style="font-size:20px;font-weight:800;margin-bottom:4px;text-shadow:0 2px 4px rgba(0,0,0,0.3);">সাপোর্ট ভিডিও</div>
+            <div style="font-size:16px;font-weight:700;color:#FCA5A5;">থাম্বনেইল</div>
+          </div>
+          <div class="play-btn-overlay">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+        </div>
+        <div class="video-info">
+          <h3 class="video-title">কিভাবে বেটার ওয়েতে সাপোর্ট পাবেন</h3>
+          <p class="video-desc">এই ভিডিও না দেখে আমাদের নামে খারাপ কথা বললে সরাসরি কোর্স থেকে রিমুভ করে দেওয়া হবে। তাই আগে এই ভিডিওটা দেখুন</p>
+        </div>
+      </div>
+
+      <!-- Continue Learning Section -->
+      <h2 class="section-title">শেখা চালিয়ে যান</h2>
+      <div class="course-grid">
+      <div class="course-card">
+        <div class="course-image">
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a0000 0%,#8B0000 50%,#B91C1C 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;padding:20px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;margin-bottom:4px;text-shadow:0 2px 4px rgba(0,0,0,0.3);">মলিকুলার ডায়নামিক</div>
+            <div style="font-size:22px;font-weight:700;color:#FCA5A5;">সিমুলেশন কোর্স</div>
+            <div style="margin-top:16px;display:flex;gap:8px;align-items:center;">
+              <div style="width:32px;height:32px;background:rgba(255,255,255,0.2);border-radius:50%;"></div>
+              <span style="font-size:12px;opacity:0.8;">Ehsanul Islam</span>
+            </div>
+          </div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">Molecular Dynamic Simulation</h3>
+          <div class="course-instructor">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Ehsanul Islam
+          </div>
+          <div class="progress-section">
+            <div class="progress-header">
+              <span class="progress-label">অগ্রগতি</span>
+              <span class="progress-percent">2%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill" style="width: 2%;"></div>
+            </div>
+            <div class="progress-meta">
+              <span class="progress-meta-item">1/49 লেসন সম্পন্ন</span>
+              <span class="progress-meta-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                10 ঘন্টা
+              </span>
+            </div>
+          </div>
+          <a href="learn.html" class="btn-continue">চালিয়ে যান</a>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <div class="course-image">
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a0000 0%,#8B0000 50%,#B91C1C 100%);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;padding:20px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;margin-bottom:4px;text-shadow:0 2px 4px rgba(0,0,0,0.3);">R প্রোগ্রামিং</div>
+            <div style="font-size:22px;font-weight:700;color:#FCA5A5;">কোর্স</div>
+            <div style="margin-top:16px;display:flex;gap:8px;align-items:center;">
+              <div style="width:32px;height:32px;background:rgba(255,255,255,0.2);border-radius:50%;"></div>
+              <span style="font-size:12px;opacity:0.8;">Ehsanul Islam</span>
+            </div>
+          </div>
+        </div>
+        <div class="course-content">
+          <h3 class="course-title">R Programming</h3>
+          <div class="course-instructor">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Ehsanul Islam
+          </div>
+          <div class="progress-section">
+            <div class="progress-header">
+              <span class="progress-label">অগ্রগতি</span>
+              <span class="progress-percent">0%</span>
+            </div>
+            <div class="progress-bar-track">
+              <div class="progress-bar-fill" style="width: 0%;"></div>
+            </div>
+            <div class="progress-meta">
+              <span class="progress-meta-item">0/35 লেসন সম্পন্ন</span>
+              <span class="progress-meta-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                8 ঘন্টা
+              </span>
+            </div>
+          </div>
+          <a href="learn.html" class="btn-continue">চালিয়ে যান</a>
+        </div>
+      </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
